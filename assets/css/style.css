@@ -1,0 +1,23 @@
+@import url(reset.css);
+
+/* classes auxiliares */
+.fundo-azul {
+    background-color: aquamarine;
+}
+/*=====================*/
+
+body {
+    width: 800px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho {
+    text-align: center;
+}
+
+.cabecalho li {
+    display: inline-block;
+    height: auto;
+    margin: 0 10px;
+}
