@@ -1,23 +1,50 @@
 @import url(reset.css);
 
 /* classes auxiliares */
-.fundo-azul {
-    background-color: aquamarine;
+.borda{
+    border: 1px solid;
 }
 /*=====================*/
 
 body {
-    width: 800px;
+    width: 95%;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
 }
 
-.cabecalho {
-    text-align: center;
+.header-caixa {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 2px 0;
 }
 
-.cabecalho li {
-    display: inline-block;
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside-container {
+    width: 25%;
     height: auto;
-    margin: 0 10px;
+}
+
+.item-lateral {
+    background-color: blueviolet;
+    
+}
+
+.video-container{
+    width: 75%;
+    height: 500px;
+}
+
+.texto-alinhado {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.texto-alinhado p {
+    margin-left: 10px;
 }
