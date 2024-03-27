@@ -24,18 +24,13 @@ body {
 }
 
 .aside-container {
-    width: 25%;
+    width: 15%;
     height: auto;
 }
 
-.item-lateral {
-    background-color: blueviolet;
-    
-}
-
 .video-container{
-    width: 75%;
-    height: 500px;
+    width: 85%;
+    height: auto;
 }
 
 .texto-alinhado {
@@ -48,3 +43,45 @@ body {
 .texto-alinhado p {
     margin-left: 10px;
 }
+
+/* =========== grade de videos ============ */
+.video-container {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     grid-template-rows: repeat(3, 1fr);
+}
+
+.vd_caixa {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.video{
+    grid-column: span 3;
+    grid-row: span 3;
+}
+
+.icone{
+    padding: 3px;
+    grid-column:1 / span 1;
+    grid-row:4 / span 2;
+}
+
+.paragrafo_1{
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    grid-column:2 / span 3;
+    grid-row:4 / span 1;
+}
+
+.paragrafo_2{
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    grid-column:2 / span 3;
+    grid-row:5 / span 1;
+}
+/* ---------------- fim grade de videos ------------ */
